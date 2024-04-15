@@ -4,10 +4,3 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/klte
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klte/proprietary/vendor/lib/libsec-ril.gsm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.gsm.so
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klte/proprietary/vendor/lib/libsec-ril.usc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.usc.so
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klte/proprietary/vendor/lib/libsec-ril.vzw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.vzw.so

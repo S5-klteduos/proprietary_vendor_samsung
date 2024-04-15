@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/kltedv
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/kltedv/proprietary/vendor/lib/libsec-ril.dv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.dv.so
-PRODUCT_COPY_FILES += \
-    vendor/samsung/kltedv/proprietary/vendor/lib/libsec-ril.spr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.spr.so
-PRODUCT_COPY_FILES += \
     vendor/samsung/kltedv/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/kltedv/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/kltedv/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm2079xB5_firmware.ncd \

@@ -5,6 +5,3 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/klteduos
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klteduos/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
-    vendor/samsung/klteduos/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so
